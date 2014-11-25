@@ -828,6 +828,10 @@ a {
 
 /*#region images css-styles  */
 
+img {
+    border: none;
+}
+
 img:hover {
     opacity: 1;
 }
@@ -839,6 +843,9 @@ img:hover {
 /**
  * Use for every container of floated elements.
  */
+p {
+    margin: 1em 0;
+}
 
 .clear {
     clear: both;
