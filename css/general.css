@@ -123,7 +123,7 @@
     }
 
     .xapi-title:before {
-        content: url(images/graphChart.png?v=quiz);
+        content: url(images/graphChart.png?v=1416917738198);
         display: block;
         width: 32px;
         height: 35px;
@@ -172,7 +172,7 @@
         margin-top: -16px;
         height: 32px;
         width: 32px;
-        background: url(images/info-message.png?v=quiz);
+        background: url(images/info-message.png?v=1416917738198);
     }
 
 .xapi-form-row {
@@ -206,7 +206,7 @@
         left: 0;
         width: 22px;
         height: 22px;
-        background: url(images/icons-xApi.png?v=quiz) no-repeat;
+        background: url(images/icons-xApi.png?v=1416917738198) no-repeat;
     }
 
 .email .xapi-form-row-title:after {
@@ -306,7 +306,7 @@
     width: 11px;
     height: 11px;
     font-size: 12px;
-    background: url(images/icons-xApi.png?v=quiz) -6px -67px;
+    background: url(images/icons-xApi.png?v=1416917738198) -6px -67px;
 }
 
 .summary-btn-holder .btn {
@@ -950,7 +950,7 @@ body {
 
 .top .left, .top .right,
 .bottom .left, .bottom .right {
-    background-image: url(../img/bg-corners.png?v=quiz);
+    background-image: url(../img/bg-corners.png?v=1416917738198);
 }
 
 .top .left {
@@ -959,7 +959,7 @@ body {
 }
 
 .top .middle {
-    background-image: url(../img/bg-top.png?v=quiz);
+    background-image: url(../img/bg-top.png?v=1416917738198);
     background-repeat: repeat-x;
 }
 
@@ -969,7 +969,7 @@ body {
 }
 
 .middle .left {
-    background-image: url(../img/bg-left.png?v=quiz);
+    background-image: url(../img/bg-left.png?v=1416917738198);
     background-repeat: repeat-y;
 }
 
@@ -978,7 +978,7 @@ body {
 }
 
 .middle .right {
-    background-image: url(../img/bg-right.png?v=quiz);
+    background-image: url(../img/bg-right.png?v=1416917738198);
     background-repeat: repeat-y;
 }
 
@@ -988,7 +988,7 @@ body {
 }
 
 .bottom .middle {
-    background-image: url(../img/bg-bottom.png?v=quiz);
+    background-image: url(../img/bg-bottom.png?v=1416917738198);
     background-repeat: repeat-x;
 }
 
@@ -1192,7 +1192,7 @@ body {
     display: inline-block;
     height: 26px;
     width: 24px;
-    background-image: url(../img/explanation.png?v=quiz);
+    background-image: url(../img/explanation.png?v=1416917738198);
     background-repeat: no-repeat;
     background-position: center center;
     vertical-align: top;
@@ -1316,17 +1316,17 @@ body {
 
         .question-answer .question-answer-checkbox.checked {
             border: 2px solid #666;
-            background: url("../img/checkbox.png?v=quiz") no-repeat scroll center center transparent;
+            background: url("../img/checkbox.png?v=1416917738198") no-repeat scroll center center transparent;
         }
 
         .question-answer .question-answer-checkbox.checked-ok {
             border: 2px solid #eee;
-            background: url("../img/checkbox-ok.png?v=quiz") no-repeat scroll center center transparent;
+            background: url("../img/checkbox-ok.png?v=1416917738198") no-repeat scroll center center transparent;
         }
 
         .question-answer .question-answer-checkbox.checked-fail {
             border: 2px solid #eee;
-            background: url("../img/checkbox-fail.png?v=quiz") no-repeat scroll center center transparent;
+            background: url("../img/checkbox-fail.png?v=1416917738198") no-repeat scroll center center transparent;
         }
 
     .question-answer .question-answer-text {
@@ -1369,7 +1369,7 @@ body {
     height: 32px;
     width: 29px;
     margin-right: 20px;
-    background-image: url(../img/explanation.png?v=quiz);
+    background-image: url(../img/explanation.png?v=1416917738198);
     -moz-background-size: 100%;
     -webkit-background-size: 100%;
     background-size: 100%;
@@ -1380,7 +1380,7 @@ body {
 .summary-title:before {
     width: 32px;
     height: 35px;
-    content: url(../img/progress.png?v=quiz);
+    content: url(../img/progress.png?v=1416917738198);
     margin-right: 15px;
     margin-top: -3px;
 }
@@ -1405,7 +1405,7 @@ body {
     display: block;
     width: 100%;
     height: 1px;
-    background-image: url(../img/divider.png?v=quiz);
+    background-image: url(../img/divider.png?v=1416917738198);
     -moz-background-size: contain;
     -webkit-background-size: contain;
     background-size: contain;
@@ -1687,7 +1687,7 @@ body {
         position: absolute;
         top: 0;
         left: 0;
-        background: url(../img/spiner.gif?v=quiz);
+        background: url(../img/spiner.gif?v=1416917738198);
     }
 
 .loader {
@@ -1780,7 +1780,7 @@ body {
     height: 34px;
     width: 30px;
     margin-right: 15px;
-    background-image: url(../img/previous.png?v=quiz);
+    background-image: url(../img/previous.png?v=1416917738198);
     background-repeat: no-repeat;
     vertical-align: middle;
 }
@@ -2103,7 +2103,7 @@ body {
         width: 128px;
         height: 127px;
         margin: 0 50px 0 50px;
-        background: url(images/xapierror.png?v=quiz) 0 0 no-repeat;
+        background: url(images/xapierror.png?v=1416917738198) 0 0 no-repeat;
         background-size: 100%;
     }
 
@@ -2154,7 +2154,7 @@ body {
     }
 
     .xapiNotSupported .xapi-title:before {
-        content: url(images/graphChart.png?v=quiz);
+        content: url(images/graphChart.png?v=1416917738198);
         display: block;
         width: 32px;
         height: 35px;
@@ -2203,7 +2203,7 @@ body {
         margin-top: -16px;
         height: 32px;
         width: 32px;
-        background: url(images/error-message.png?v=quiz);
+        background: url(images/error-message.png?v=1416917738198);
     }
 
 .xapiNotSupported .message-btn-holder {
