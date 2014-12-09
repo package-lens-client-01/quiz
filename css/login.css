@@ -34,6 +34,10 @@
     margin: 0 auto;
 }
 
+    .xapi-form-holder > .summary-btn-holder > .btn {
+        width: 52%;
+    }
+
 .xapi-form-info-message {
     width: 100%;
     position: absolute;
