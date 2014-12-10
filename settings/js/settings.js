@@ -18,7 +18,7 @@
         trackingData: (function() {
             var data = {};
 
-            data.enableXAPI = ko.observable(false),
+            data.enableXAPI = ko.observable(true),
 
             data.lrsOptions = [
                 { key: 'default', text: 'easygenerator (recommended)' },
@@ -531,25 +531,25 @@ var imageUploader = {
 
 //#region Ajax requests
 
-$.ajax({
-    cache: false,
-    url: settingsURL,
-    dataType: "json",
-    success: function(json) {
-        var defaultSettings = { logo: {}, xApi: { lrs: { credentials: {} } }, masteryScore: {} };
-        var settings;
-        try {
-            settings = JSON.parse(json.settings) || defaultSettings;
-        } catch (e) {
-            settings = defaultSettings;
-        }
-        viewModel.trackingData.enableXAPI(settings.xApi.enabled || false);
-        var defaultLrs = settings.xApi.enabled ? 'custom' : 'default';
-        viewModel.trackingData.selectedLrs(settings.xApi.selectedLrs || defaultLrs);
-        viewModel.trackingData.lrsUrl(settings.xApi.lrs.uri || '');
-        viewModel.trackingData.authenticationRequired(settings.xApi.lrs.authenticationRequired || false);
-        viewModel.trackingData.lapLogin(settings.xApi.lrs.credentials.username || '');
-        viewModel.trackingData.lapPassword(settings.xApi.lrs.credentials.password || '');
+    $.ajax({
+        cache: false,
+        url: settingsURL,
+        dataType: "json",
+        success: function(json) {
+            var defaultSettings = { logo: {}, xApi: { enabled: true, selectedLrs: "default", lrs: { credentials: {} } }, masteryScore: {} };
+            var settings;
+            try {
+                settings = JSON.parse(json.settings) || defaultSettings;
+            } catch (e) {
+                settings = defaultSettings;
+            }
+            viewModel.trackingData.enableXAPI(settings.xApi.enabled || false);
+            var defaultLrs = settings.xApi.enabled ? 'custom' : 'default';
+            viewModel.trackingData.selectedLrs(settings.xApi.selectedLrs || defaultLrs);
+            viewModel.trackingData.lrsUrl(settings.xApi.lrs.uri || '');
+            viewModel.trackingData.authenticationRequired(settings.xApi.lrs.authenticationRequired || false);
+            viewModel.trackingData.lapLogin(settings.xApi.lrs.credentials.username || '');
+            viewModel.trackingData.lapPassword(settings.xApi.lrs.credentials.password || '');
 
         if (settings.xApi.allowedVerbs) {
             $.each(viewModel.trackingData.statements, function(key, value) {
