@@ -1,4 +1,4 @@
-﻿/*
+/*
  * easygenerator | Copyright 2013
  */
 
@@ -1231,6 +1231,7 @@ body {
 /*#endregion */
 
 .image-wrapper {
+    max-width: 100%;
     overflow-x: auto;
     overflow-y: hidden;
 }
